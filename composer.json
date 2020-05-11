@@ -1,0 +1,33 @@
+{
+  "name": "wathfea/minicrm-laravel",
+  "description": "MiniCRM Api implementation for Laravel",
+  "type": "project",
+  "license": "MIT",
+  "keywords": [
+	"laravel",
+	"minicrm"
+  ],
+  "autoload": {
+	"psr-4": {
+	  "MiniCRMLaravel\\": "src"
+	}
+  },
+  "authors": [
+	{
+	  "name": "Perlusz Dávid",
+	  "email": "perluszd@gmail.com"
+	}
+  ],
+  "require": {
+	"php": "^7.2.5"
+  },
+  "extra": {
+	"laravel": {
+	  "providers": [
+		"MiniCRMLaravel\\MiniCRMServiceProvider"
+	  ]
+	}
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
